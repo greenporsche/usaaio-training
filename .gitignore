@@ -1,0 +1,40 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.python-version
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+# Node
+node_modules/
+package-lock.json
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / AI tooling
+.claude/
+.cursor/
+.ipynb_checkpoints/
+.claude_logs/
+
+
+# macOS bookmarks
+*.webloc
+
+# Dependency locks (local-only)
+uv.lock
+
+# Ignored content
+2025/content-outline/
