@@ -1,6 +1,8 @@
 AI 900 Grandmaster Course
 Course contents
 
+> Disclaimer: This repository contains self-authored self-study material and is neither officially affiliated with, endorsed by, nor sourced from official resources of **IOAI**, **USAAIO**, or **BeaverEdge**.
+
 Advanced topics beyond all courses at 100-500 levels
 
 ​Prerequisite(s)

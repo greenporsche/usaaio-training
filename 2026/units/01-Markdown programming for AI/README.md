@@ -1,5 +1,7 @@
 ## Markdown programming for AI
 
+> Disclaimer: This repository contains self-authored self-study material and is neither officially affiliated with, endorsed by, nor sourced from official resources of **IOAI**, **USAAIO**, or **BeaverEdge**.
+
 ### Unit Overview: (from [syllabus](https://www.usaaio.org/syllabus))
 
 Round 1 paper-based part requires contestants to write solutions in Google Colab text cells with markdown programming. Therefore, contestants need to know how to use it to text words, write snippets of code, and enter math formulae.

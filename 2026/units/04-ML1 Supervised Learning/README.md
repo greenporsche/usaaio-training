@@ -1,5 +1,7 @@
 ## Machine Learning: Supervised Learning
 
+> Disclaimer: This repository contains self-authored self-study material and is neither officially affiliated with, endorsed by, nor sourced from official resources of **IOAI**, **USAAIO**, or **BeaverEdge**.
+
 ### Unit Overview:
 
 ### Topics: (from [syllabus](https://www.usaaio.org/syllabus))

@@ -2,6 +2,8 @@
 
 A structured 12-unit curriculum for preparing for the [USA AI Olympiad (USAAIO)](https://www.usaaio.org/) and the [International Olympiad in AI (IOAI)](https://ioai-official.org/). Units are sequenced so that each builds on the knowledge from previous ones, progressing from foundational skills through advanced deep learning and generative AI.
 
+> Disclaimer: This repository contains self-authored self-study material and is neither officially affiliated with, endorsed by, nor sourced from official resources of **IOAI**, **USAAIO**, or **BeaverEdge**.
+
 ## Unit Overview
 
 | # | Unit | BeaverEdge Course | Key Topics |

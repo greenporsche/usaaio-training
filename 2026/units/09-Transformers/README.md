@@ -1,5 +1,7 @@
 ## Transformers
 
+> Disclaimer: This repository contains self-authored self-study material and is neither officially affiliated with, endorsed by, nor sourced from official resources of **IOAI**, **USAAIO**, or **BeaverEdge**.
+
 ### Unit Overview:
 
 (Note: Transformers is the foundation of many modern AI technologies. Therefore, contestants shall have very solid and deep understandings of transformers.)

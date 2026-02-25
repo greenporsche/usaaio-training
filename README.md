@@ -2,6 +2,8 @@
 
 > Personal training repo for the **USA AI Olympiad** — Gold medal 2025, requalified for Round 2 in 2026.
 
+> Disclaimer: This repository contains self-authored self-study material and is neither officially affiliated with, endorsed by, nor sourced from official resources of **IOAI**, **USAAIO**, or **BeaverEdge**.
+
 ---
 
 ## Background

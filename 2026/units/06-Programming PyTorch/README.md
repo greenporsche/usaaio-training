@@ -1,5 +1,7 @@
 ## Programming PyTorch
 
+> Disclaimer: This repository contains self-authored self-study material and is neither officially affiliated with, endorsed by, nor sourced from official resources of **IOAI**, **USAAIO**, or **BeaverEdge**.
+
 ### Unit Overview: (from [syllabus](https://www.usaaio.org/syllabus))
 
 Pytorch (In USA-NA-AIO, deep learning problems shall be programmed with Pytorch, not TensorFlow. This is consistent with IOAI's requirement and modern trend in academia and industry.)
