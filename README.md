@@ -15,7 +15,7 @@ USAAIO tests both **mathematical theory** and **from-scratch implementation** �
 | Year | Round 1 | Round 2 | Result |
 |------|---------|---------|--------|
 | **2025** | March 24 — at school / test site | April 27 — MIT | Gold medal |
-| **2026** | January 30 — school / test site | March–April — MIT | Requalified for Round 2 |
+| **2026** | January 30 — school / test site | April 4–5 — MIT | Requalified for Round 2 |
 
 ---
 
@@ -34,6 +34,7 @@ USAAIO tests both **mathematical theory** and **from-scratch implementation** �
 |--------|----------|
 | [`units/`](2026/units/) | **12-unit structured curriculum** aligned with the [USAAIO syllabus](https://www.usaaio.org/syllabus) and [BeaverEdge courses](https://www.beaver-edge.ai/courses) — from Markdown & math foundations through Transformers, GenAI, and GNNs. See the [units README](2026/units/README.md) for a full breakdown. |
 | [`practice/round-1-sample-variations/`](2026/practice/round-1-sample-variations/) | Practice problem variations (14 problem sets) in both Markdown and Jupyter notebook format, covering Round 1 topics |
+| [`round-2-prep.md`](2026/round-2-prep.md) | **Round 2 preparation analysis** — gap analysis, tiered study plan, and key formulas based on 2025 Round 2 problems (PINNs, MHA/GQA/MLA, CLIP) |
 
 ### [`usaaio-official/`](usaaio-official/) — Official contest materials
 

@@ -3,38 +3,40 @@
 Thumbs.db
 
 # Python
-.venv/
-__pycache__/
-*.pyc
-.python-version
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/.python-version
+**/*.py[oc]
+**/build/
+**/dist/
+**/wheels/
+**/*.egg-info
+uv.lock
 
 
 # Node
-node_modules/
-package-lock.json
+**/node_modules/
+**/package-lock.json
 
 # Environment / secrets
-.env
-.env.*
+**/.env
+**/.env.*
 !.env.example
 
 # IDE / AI tooling
-.claude/
-.cursor/
-.ipynb_checkpoints/
-.claude_logs/
+**/.claude/
+**/.cursor/
+**/.ipynb_checkpoints/
+**/.claude_logs/
 
 
 # macOS bookmarks
-*.webloc
+**/*.webloc
 
 # Dependency locks (local-only)
-uv.lock
+**/.uv.lock
 
 # Ignored content
 2025/content-outline/
+**/generation-log.md

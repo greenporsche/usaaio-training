@@ -63,9 +63,82 @@ AI 400  Unsupervised Learning        │             │
 | USAAIO Round 2 — Medal contention | AI 500 + AI 510 + AI 520 |
 | National team / IOAI qualification | AI 900 |
 
-## Structure
+## Curriculum Materials
 
-Each unit folder contains a markdown file with:
+A comprehensive, self-contained curriculum was generated on **2026-02-24** covering all 12 units. The materials use the **Sokratik Discovery-First pedagogy** — each concept is encountered through four cognitive lenses: Discovery, Intuition, Math, and Code.
+
+### Per-Unit Structure
+
+```
+units/XX-Name/
+├── XX-Name.md                  # Original BeaverEdge course overview (reference)
+├── cheat-sheet.md              # Dense 1–2 page exam-day quick reference
+├── study-guide/                # Core learning content
+│   ├── 00-overview.md          # Unit intro, prereqs, roadmap
+│   ├── 01-topic.md             # D→I→M→C for each topic
+│   ├── 02-topic.md
+│   └── ...
+├── exercises/                  # Pencil-and-paper speed drills
+│   ├── 01-topic-exercises.md   # 5 exercises per topic, solutions in <details>
+│   └── ...
+└── assignments/                # Contest-format Jupyter notebooks
+    ├── assignment-01-topic.ipynb
+    ├── assignment-02-topic.ipynb
+    └── ...                     # 3–12 per unit, USAAIO Round 2 format
+```
+
+### Study Guide Format (D→I→M→C)
+
+Each study guide file follows four phases:
+
+1. **Discovery** — Historical framing and Socratic questions guiding toward the key insight
+2. **Intuition** — Visual/geometric explanations, failure case analysis
+3. **Math** — Rigorous formalization with complete derivations
+4. **Code** — From-scratch NumPy implementation + PyTorch equivalent with shape annotations
+
+### Assignment Notebook Format
+
+All `.ipynb` notebooks mirror the **official USAAIO Round 2 exam format**:
+- Title cell with total points (100 per notebook)
+- Import cell with `DO NOT MAKE ANY CHANGE` restriction
+- Warning cell about import restrictions
+- Multi-part problems: `## Part N (X points, coding/non-coding task)`
+- `Reasoning required` / `Reasoning not required` labels
+- `### WRITE YOUR SOLUTION HERE ###` and `""" END OF THIS PART """` markers
+- Shape annotations required: `# (B, H, L, D_qk)` after tensor operations
+- No solutions provided — blank solution cells for students
+
+### Inventory
+
+| # | Unit | Cheat | Guides | Exercises | Notebooks | Total |
+|---|------|-------|--------|-----------|-----------|-------|
+| 01 | Markdown Programming | 1 | 4 | 3 | 3 | **11** |
+| 02 | Mathematical Foundations | 1 | 9 | 8 | 10 | **28** |
+| 03 | AI Programming in Python | 1 | 6 | 5 | 10 | **22** |
+| 04 | ML1: Supervised Learning | 1 | 8 | 7 | 10 | **26** |
+| 05 | ML2: Unsupervised Learning | 1 | 8 | 7 | 10 | **26** |
+| 06 | Programming PyTorch | 1 | 8 | 7 | 10 | **26** |
+| 07 | Deep Learning | 1 | 9 | 8 | 12 | **30** |
+| 08 | Natural Language Processing | 1 | 7 | 6 | 10 | **24** |
+| 09 | Transformers | 1 | 9 | 8 | 12 | **30** |
+| 10 | CV & Generative AI | 1 | 10 | 9 | 12 | **32** |
+| 11 | Graph Neural Networks | 1 | 6 | 5 | 10 | **22** |
+| 12 | AI Grandmaster | 1 | 6 | 5 | 10 | **22** |
+| | **Totals** | **12** | **90** | **78** | **119** | **299** |
+
+### Round 2 Critical Assignments
+
+The most important notebooks for USAAIO Round 2 preparation:
+
+- **`09-Transformers/assignments/assignment-12-comprehensive.ipynb`** — 14-part, 100-point problem mirroring the 2025 Round 2 Problem 2 (MHA → GQA → MLA progression)
+- **`10-CV & Generative AI/assignments/assignment-12-comprehensive.ipynb`** — Full CLIP/diffusion problem in 2025 Round 2 Problem 3 style
+- **`07-Deep Learning/assignments/assignment-11-pinn-basics.ipynb`** — PINNs with `autograd.grad(create_graph=True)` matching 2025 Round 2 Problem 1
+
+---
+
+## Original Unit Structure
+
+Each unit folder also contains the original BeaverEdge course overview markdown file with:
 
 - **Unit overview** — what the unit covers and why
 - **Topics** — detailed topic list aligned with the [USAAIO syllabus](https://www.usaaio.org/syllabus)
@@ -73,3 +146,6 @@ Each unit folder contains a markdown file with:
 - **FAQs** — common questions about prerequisites and scope
 - **Takeaways** — expected outcomes after completing the unit
 - **Resources** — curated links to textbooks, courses, and tutorials
+
+---
+
